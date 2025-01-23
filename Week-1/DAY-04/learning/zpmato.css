@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nv{
+    background-image: url(https://abhi16245.github.io/Zomato-clone/Content/image/food.png);
+    width: 100%;
+    height: 400%;
+}
+.nv nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+}
+.nv nav .right{
+    display: flex;
+}
+nav p{
+    margin-inline: 11px;
+    margin-top:22px ;
+}
+.nv .logo{
+    text-align: center;
+}
+.nv .logo img{
+    width: 45%;
+    margin-top: 66px;
+
+}
+.nv .inp{
+    text-align: center;
+}
+.nv .text{
+    text-align: center;
+    color: white;
+    margin-top: 22px;
+    font-size: 22px;
+}
+.nv .inp .input{
+    width: 800px;
+    height: 13px;
+    font-size: 19px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 22px;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card .crd img{
+    width: 320px;
+    height: 280px;
+}
