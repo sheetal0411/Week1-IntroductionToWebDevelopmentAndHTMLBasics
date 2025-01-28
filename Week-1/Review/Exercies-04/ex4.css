@@ -1,0 +1,31 @@
+/* Save this file as styles.css */
+
+:root {
+    --primary-color: #d7374acc;
+    --text-color: rgba(227, 239, 8, 0.951);
+    --secondary-color: #e679b3cc;
+}
+
+body {
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 12px 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 23px;
+    font-weight: bolder;
+}
+
+ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}

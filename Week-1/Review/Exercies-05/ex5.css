@@ -1,0 +1,96 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+nav {
+    background-color: rgb(71, 18, 27);
+    height: 83px;
+}
+
+/* Main content */
+main {
+    background-color: rgb(175, 148, 148);
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 110px;
+    font-weight: bolder;
+    
+    
+}
+
+ul li a {
+    --text-color: rgba(251, 243, 13, 0.951);
+    text-decoration: none;
+}
+
+/* Container for boxes */
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 12px 34px;
+}
+
+.box1, .box2 {
+    height: 70vh;
+    width: 45%;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.box1 {
+    background-color: palevioletred;
+}
+
+.box2 {
+    background-color: rgb(58, 101, 176);
+}
+
+/* Text box */
+.text-box {
+    padding: 34px;
+    border: 2px solid white;
+    margin: 50px auto;
+    font-size: 2em;
+    border-radius: 13px;
+    width: fit-content;
+    text-align: center;
+}
+
+/* Orange circular box */
+.orange-box {
+    height: 32px;
+    width: 32px;
+    background: orange;
+    position: fixed;
+    bottom: 12px;
+    right: 23px;
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    height: 100px;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 30px;
+}

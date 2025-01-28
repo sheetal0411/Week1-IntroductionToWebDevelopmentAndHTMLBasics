@@ -1,0 +1,57 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Center items vertically */
+    background-color: #b56060; /* Light grey background */
+    padding: 15px 30px; /* Add some padding for spacing */
+    font-family: Arial, sans-serif;
+    border-bottom: 2px solid #a00909; /* Subtle border at the bottom */
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 1.5rem; /* Large font for the logo */
+    font-weight: bold;
+    color: #dc0c0c; /* Darker text color */
+}
+
+/* Navigation Links Styling */
+.nav-links {
+    display: flex;
+    list-style: none; /* Remove default bullet points */
+    gap: 20px; /* Space between each item */
+}
+
+.nav-item {
+    font-size: 1rem; /* Regular text size */
+    color: #eb0606; /* Medium grey text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover Effect */
+.nav-item:hover {
+    color: #042446; /* Change text color to blue on hover */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack the logo and nav links */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack nav links vertically */
+        gap: 10px; /* Reduce spacing between items */
+        margin-top: 10px;
+    }
+}
